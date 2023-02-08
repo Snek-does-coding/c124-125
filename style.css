@@ -1,0 +1,24 @@
+#title{
+    font-size:25px;
+    width:200px
+}
+
+#capture:hover{
+    background-color:red
+}
+body{
+    background-image:"background.jpg"
+}
+canvas{
+    animation-name: example;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px black;
+    }
+    to{
+        box-shadow:1px 1px 38px darkred;
+    }
+}
